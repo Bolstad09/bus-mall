@@ -25,7 +25,18 @@ header ul li {
     margin-top: 40px;
     margin-right: 75px;
 }
-
+#product1 {
+    height: 30px;
+    width: 30px;
+}
+#product2 {
+    height: 30px;
+    width: 30px;
+}
+#product3 {
+    height: 30px;
+    width: 30px;
+}
 a {
     text-decoration: none;
     color: #888;
