@@ -8,26 +8,36 @@ header {
     background: #444;
     height: 100px;
 }
-t
+
 nav {
     width: 960px;
     margin: 0px auto;
 }
-
+#image1 {
+    max-height: 250px;
+    max-width: 250px;
+    float: right;
+}
 header img {
     float: left;
     margin-top: 15px;
     margin-right: 30px;
 }
-
+button {
+    height:34px;
+    margin:0 auto;
+    margin-bottom:20px;
+    margin-left: 400px;
+    float:left;
+}
 header ul li {
     display: inline-block;
     margin-top: 40px;
     margin-right: 75px;
 }
 #product1 {
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
 }
 #product2 {
     height: 30px;
