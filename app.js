@@ -64,7 +64,7 @@ function handleClick(event) {
     if(event.target.id === Item.all[i].name) {
       Item.all[i].votes += 1;
     }
-  // console.log(Item.votes);
+    // console.log(Item.votes);
   }
   renderItems();
 }
