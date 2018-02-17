@@ -67,19 +67,12 @@ function handleClick(event) {
   }
   renderItems();
 }
-
-// var liEl = document.createElement('li');
-// liEl.textContent = ' ' + Item.all[i].name + ' has ' + Item.all[i].votes + ' votes in ' + Item.all[i].views + ' views. ';
-// Item.totals.appendChild(liEl);
-
-
 function makeChart() {
   var storage = JSON.stringify(Item.all);
   localStorage.setItem('items', storage);
   var ctx = document.getElementById('chart').getContext('2d');
   for(var i = 0; i < Item.names.length; i++) {
     data.push(Item.all[i].votes);
-    console.log(data);
     var myChart = new Chart(ctx, {
       type: 'bar',
       data: {
